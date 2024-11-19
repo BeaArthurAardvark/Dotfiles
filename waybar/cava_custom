@@ -1,0 +1,5 @@
+"custom/cava": {
+    "exec": "sleep 3 && bash -c ~/.config/waybar/modules/cava" 
+},"custom/cava": {
+    "exec": "sleep 3 && bash -c ~/.config/waybar/modules/cava" 
+},
