@@ -1,0 +1,58 @@
+# yazi.toml
+[mgr]
+show_hidden = true
+
+[[mgr.prepend_keymap]]
+on	= ["g", "c"]
+run = "cd ~/.config"
+desc = "config"
+
+[[mgr.prepend_keymap]]
+on	= ["g", "w"]
+run = "cd ~/Documents"
+desc = "Documents"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "d" ]
+run  = "cd ~/Downloads"
+desc = "Downloads"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "p" ]
+run  = "cd ~/Pictures"
+desc = "Pictures"
+
+[[mgr.prepend_keymap]]
+on	= ["g", "u"]
+run = "cd /usr"
+desc = "user"
+
+[[mgr.prepend_keymap]]
+on	= ["g", "b"]
+run = "cd /usr/bin"
+desc = "usr/bin"
+
+[[mgr.prepend_keymap]]
+on  = ["g", "e"]
+run = "cd /etc"
+desc = "etc"
+
+[[mgr.prepend_keymap]]
+on  = ["g", "t"]
+run = "cd /tmp"
+desc = "tmp"
+
+[[mgr.prepend_keymap]]
+on  = ["g", "l"]
+run = "cd ~/.local"
+desc = "local"
+
+[[mgr.prepend_keymap]]
+on  = ["g", "e"]
+run = "cd /etc/systemd"
+desc = "etc systemd"
+
+[[mgr.prepend_keymap]]
+on  = ["g", "m"]
+run = "cd /run/media"
+desc = "run media"
