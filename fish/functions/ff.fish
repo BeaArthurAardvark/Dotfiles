@@ -1,3 +1,3 @@
 function ff
-fastfetch -c ~/.config/fastfetch/patfetch.config
+    fastfetch -l none -c ~/.config/fastfetch/patfetch.jsonc
 end
